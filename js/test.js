@@ -1,5 +1,5 @@
 let contentData;
-window.onload = async () => {
+window.onload = async () => { // ให้หน้าเว็บโหลดเสร็จก่อน
     contentData = await onFetchData()
 
     // let someData = contentData.map( item => {
